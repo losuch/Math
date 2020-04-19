@@ -19,6 +19,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func calculateSum(_ sender: Any) {
+        if let number1 = Int(add1.text!), let number2 = Int(add2.text!) {
+            sum.text = String(number1 + number2)
+        } else {
+            print("Error")
+        }
+    }
+    
 }
 
