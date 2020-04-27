@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     
+    @IBOutlet weak var navTitel: UINavigationItem!
     @IBOutlet weak var detailLabel: UILabel!
     var text = "Hello Math!"
     
@@ -26,7 +27,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        self.navTitel.title = text
         detailLabel.text = text
     }
 

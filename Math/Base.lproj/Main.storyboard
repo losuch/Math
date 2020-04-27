@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Detail View Controller-->
+        <!--Title-->
         <scene sceneID="Zim-Rj-P6P">
             <objects>
                 <viewController id="HVk-Co-zQ0" customClass="DetailViewController" customModule="Math" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,9 +30,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BrN-53-CSE"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Eb5-4X-9t9"/>
+                    <navigationItem key="navigationItem" title="Title" id="Eb5-4X-9t9"/>
                     <connections>
                         <outlet property="detailLabel" destination="TbB-fQ-2ZU" id="Rbl-Rp-o9J"/>
+                        <outlet property="navTitel" destination="Eb5-4X-9t9" id="vok-5D-RXb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XxD-xz-1sh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
